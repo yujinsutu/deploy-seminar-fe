@@ -44,8 +44,8 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-        <h1 className="header-title">배포 인증 방명록</h1>
-        <p className="header-sub">배포 완료 자동으로 이름이 올라가요</p>
+        <h1 className="header-title">배포 인증 방명록 입니다</h1>
+        <p className="header-sub">배포에 성공하면 자동으로 이름이 올라가요</p>
         {DEPLOYER_NAME && (
           <div className="header-deploy-badge">
             <span>🚀</span>
